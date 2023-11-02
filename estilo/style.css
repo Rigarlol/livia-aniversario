@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@font-face {
+    font-family: 'aniversario';
+    src: url('../fontes/Valentine.ttf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --fonte-aniversario: 'aniversario';
+    --fonte-padrão: Verdana, Geneva, Tahoma, sans-serif;    
+    --fonte-titulo: 'Passion One', sans-serif;
+    --fonte-cordel: 'Sriracha', cursive;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: lightgrey;
+    font-family: var(--fonte-padrão);
+}
+
+header {
+    background-color: black;
+    color: white;
+    min-height: 150px;
+}   
+
+header > h1 {
+    text-align: center;
+    padding-top : 50px;
+    font-variant: small-caps;  
+    font-family: var(--fonte-aniversario); 
+    font-size: 5vw;
+}
+
+header > p {
+    text-align: center;
+    padding-bottom: 50px;
+    color: white;   
+}
+
+header a, footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px  ;
+    font-family: var(--fonte-cordel);
+    font-size: 3.5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+
+}
+
+section.imagem {
+    background-color: rgb(50, 48, 48);
+    color: white;    
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.457);   
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.501);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('../imagens/montagem1.jpg');
+    background-position: center center;
+    
+
+}
+
+section#img02 {
+    background-image: url('../imagens/grande04.jpg');
+
+    
+        
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
