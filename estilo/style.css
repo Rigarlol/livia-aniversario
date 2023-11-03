@@ -89,7 +89,7 @@ section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.501);
-    text-shadow: 1px 1px 0px black;
+    text-shadow: 1px 1px 0px black;                 
 }
 
 section#img01 {
@@ -102,10 +102,76 @@ section#img01 {
 section#img02 {
     background-image: url('../imagens/grande04.jpg');
 
-    
-        
 }
 
+div {
+    padding: 10px;
+}
+
+div#fotos01 > picture > img {
+    border: 8px solid black;
+    border-radius: 5px;
+}
+
+div#fotos02 > picture > img {
+    border: 8px solid black;
+    border-radius: 5px;
+}
+
+div#fotos03 > picture > img {
+    border: 8px solid black;
+    border-radius: 5px;
+}
+
+div#fotos04 > picture > img {
+    border: 8px solid black;
+    border-radius: 5px;     
+}
+
+div#fotos05 > picture > img {
+    border: 8px solid black;
+    border-radius: 5px;
+}
+
+
+div#fotos01 > h3 {
+    font-style: var(--fonte-titulo);
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+div#fotos01 > p {
+    font-style: var(--fonte-cordel);
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+div#fotos02 > p {
+    font-style: var(--fonte-cordel);
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+div#fotos03 > p {
+    font-style: var(--fonte-cordel);
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+div#fotos04 > p {
+    font-style: var(--fonte-cordel);
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+div#fotos05 > p {
+    font-style: var(--fonte-cordel);
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+
+        
 footer {
     background-color: black;
     color: white;
